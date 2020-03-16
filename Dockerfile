@@ -6,3 +6,4 @@ RUN pip install tornado
 # Copy the webserver python app.
 ADD web-server.py /web-server.py
 # Set the default execution command for this image.
+CMD ["python", "/web-server.py"]
